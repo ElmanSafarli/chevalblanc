@@ -1,0 +1,47 @@
+.third{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    top: 50vh;
+    z-index: 10;
+    background-color: #fff;
+
+}
+
+.third-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.third-content-text{
+    margin-top: 45vh;
+    font-size: 50px;
+    line-height: 110%;
+    text-align: center;
+    color: #4C4442;
+    width: 1000px;
+    z-index: 10;
+}
+
+.imgLeft{
+    position: absolute;
+    left: 10%;
+    top: 20%;
+    z-index: 15;
+    width: 357.100px;
+    height: 403.888px;
+}
+
+.imgRight-blok{
+    position: absolute;
+    right: 10%;
+    top: 40%;
+}
+
+.imgRight{
+    position: relative;
+    top: 60px;
+    width: 250px;
+    height: auto;
+}

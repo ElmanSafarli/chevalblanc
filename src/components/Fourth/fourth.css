@@ -1,0 +1,74 @@
+.fourth{
+    position: relative;
+    top: 50vh;
+    width: 100%;
+    height: 100vh;
+    z-index: 20;
+    background: url('../../assets/fourth.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+
+}
+
+.fourth-title{
+    color: #fff;
+    font-size: 70px;
+    line-height: 100%;
+    margin-bottom: 50px;
+    width: 500px;
+}
+
+.fourth-text{
+    color: #fff;
+    font-size: 17px;
+    line-height: 28px;
+    width: 580px;
+}
+
+.hyperlink-fourth{
+    margin-top: 20px;
+}
+
+.hyperlink-fourth a{
+    padding: 5px 10px;
+    display: inline-block;
+    position: relative;
+    font-size: 15px;
+    font-family: "Copperplate";
+    text-transform: uppercase;
+    color: #fff;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.3s;
+
+    background:
+    linear-gradient(
+      to right,
+      rgba(218, 218, 216, 1),
+      rgb(188, 188, 182)
+    ),
+    linear-gradient(
+      to right,
+      rgba(238,238,238, 1),
+      rgba(247,247,247, 1),
+      rgba(238,238,238, 1)
+  );
+  background-size: 100% 3px, 0 3px;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
+
+}
+
+.hyperlink-fourth a:hover{
+    color: #c2b4ab;
+    background-size: 0 3px, 100% 3px;
+}
+
+.fourth-content{
+    float: right;
+    padding: 10% 10%;
+}

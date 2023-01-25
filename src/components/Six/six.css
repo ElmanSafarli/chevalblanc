@@ -1,0 +1,71 @@
+.six{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: yellowgreen;
+    top: 50vh;
+    z-index: 30;
+    background: url('../../assets/six.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+
+}
+
+.six-content{
+    float: left;
+    margin: 10% 10%;
+}
+
+.six-title{
+    font-size: 70px;
+    line-height: 100%;
+    margin-bottom: 50px;
+    color: #fff;
+}
+
+.six-text{
+    font-size: 17px;
+    line-height: 28px;
+    color: #FFFFFF;
+    width: 446.375px;
+    height: 84px;
+}
+
+.six-hyperlink a{
+    padding: 5px 10px;
+    display: inline-block;
+    position: relative;
+    font-size: 15px;
+    font-family: "Copperplate";
+    text-transform: uppercase;
+    color: #fff;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.3s;
+
+    background:
+    linear-gradient(
+      to right,
+      rgba(218, 218, 216, 1),
+      rgb(188, 188, 182)
+    ),
+    linear-gradient(
+      to right,
+      rgba(71,62,53),
+      rgba(247,247,247, 1),
+      rgba(71,62,53)
+  );
+  background-size: 100% 3px, 0 3px;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
+
+}
+
+.six-hyperlink a:hover{
+    color: #473e35;
+    background-size: 0 3px, 100% 3px;
+}

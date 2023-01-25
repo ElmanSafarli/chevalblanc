@@ -1,0 +1,138 @@
+.navbar{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    z-index: 1000;
+    background-color: #fff;
+    width: 100%;
+}
+
+.navbar-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.nav-items ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    text-decoration: none;
+}
+
+.nav-items ul li{
+    padding: 5px 10px;
+    color: #7E6E64;
+    font-family: "Copperplate";
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Copperplate';
+    cursor: pointer;
+}
+
+.nav-items ul li:first-child::after{
+    position: absolute;
+    content: "";
+    display: flex;
+    width: 60px;
+    height: 1px;
+    background: #7E6E64;
+    margin-top: 5px; 
+    transition: 0.2s;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-items ul li:first-child::after:hover{
+    color: #c2b4ab;
+}
+
+.nav-items ul li:hover{
+    color: #c2b4ab;
+}
+
+
+.nav-language{
+    color: #7E6E64;
+    font-family: "Copperplate";
+    font-weight: 400;
+    font-size: 16px;
+    padding: 13px 5px;
+}
+
+/* Sidebar */
+/* #menu{
+    position: fixed;
+    top: 2rem;
+    right: 2rem;
+    color: #f9004d;
+    background: #191919;
+    z-index: 1001;
+    padding: 0.9rem 1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border-radius: 10px;
+    display: none;
+}
+
+.action-menu{
+    z-index: 1000;
+    position: fixed;
+    top: 0px;
+    right: -300px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 260px;
+    height: 100vh;
+    background: #fff;
+    transition: all 700ms;
+    
+}
+
+.active{
+    right: 0px;
+}
+
+
+.action-menu ul li{
+    padding-top: 5px;
+    padding-bottom: 20px;
+    list-style: none;
+    transition: 0.9s;
+}
+
+.action-menu ul li a{
+    padding-left: 20px;
+    font-size: 0.9rem;
+    font-weight: 400;
+    text-decoration: none;
+    color: #000;
+    
+}
+
+.action-menu ul li:hover{
+    transform: translate(20px,0);
+}
+
+
+@media (max-width:991px){
+
+    #menu{
+        display: block;
+    }
+
+    nav ul li{
+        display: none;
+    }
+
+    .action-menu{
+        display: flex;
+    }
+
+} */

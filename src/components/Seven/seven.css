@@ -1,0 +1,84 @@
+.seven{
+    width: 100%;
+    position: relative;
+    height: 200vh;
+    z-index: 40;
+    top: 50vh;
+    background-color: #fff;
+}
+
+.seven-video video{
+    position: absolute;
+    top: 28%;
+    width: 1220px;
+    height: 700px;
+}
+
+.seven-blok{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    position: absolute;
+    top: 60%;
+}
+
+.seven-lef-side-title{
+    color: #4C4442;
+    font-size: 70px;
+    line-height: 100%;
+    margin-bottom: 50px;
+    width: 300px;
+    height: 140px;
+}
+
+.seven-lef-side-text{
+    color: #7E6E64;
+    font-size: 17px;
+    line-height: 28px;
+    width: 300px;
+    height: 170px;
+    margin-bottom: 40px;
+}
+
+.hyperlink-seven a{
+    padding: 5px 10px;
+    display: inline-block;
+    position: relative;
+    font-size: 15px;
+    font-family: "Copperplate";
+    text-transform: uppercase;
+    color: #473e35;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.3s;
+
+    background:
+    linear-gradient(
+      to right,
+      rgba(218, 218, 216, 1),
+      rgb(188, 188, 182)
+    ),
+    linear-gradient(
+      to right,
+      rgba(71,62,53),
+      rgba(247,247,247, 1),
+      rgba(71,62,53)
+  );
+  background-size: 100% 3px, 0 3px;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
+
+}
+
+.hyperlink-seven a:hover{
+    color: #473e35;
+    background-size: 0 3px, 100% 3px;
+}
+
+.seven-right-side img{
+    position: relative;
+    left: 57%;
+}
