@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/chevalblanc/static/css/main.3087ef41.css",
+    "main.js": "/chevalblanc/static/js/main.ffc288cf.js",
+    "static/media/seven.mp4": "/chevalblanc/static/media/seven.d914798b6b010472a4dd.mp4",
+    "static/media/header-bg.mp4": "/chevalblanc/static/media/header-bg.2032c9a0aaca5d9ecba9.mp4",
+    "static/media/copperplate.ttf": "/chevalblanc/static/media/copperplate.6be8bd1a68b5c50a79a6.ttf",
+    "static/media/7.jpg": "/chevalblanc/static/media/7.a35d96597ee3773139ad.jpg",
+    "static/media/eight.jpg": "/chevalblanc/static/media/eight.24437f378ead7f8d24b4.jpg",
+    "static/media/six.jpg": "/chevalblanc/static/media/six.06888280d5f419daa92b.jpg",
+    "static/media/fourth.jpg": "/chevalblanc/static/media/fourth.64eac22921fd3d6acbe8.jpg",
+    "static/media/seven.jpg": "/chevalblanc/static/media/seven.b8be02943f7da7e195c8.jpg",
+    "static/media/second.jpg": "/chevalblanc/static/media/second.9fefa0bd06dc34ce0928.jpg",
+    "static/media/third1.jpg": "/chevalblanc/static/media/third1.7a0eaf2e65faad46c674.jpg",
+    "static/media/2.jpg": "/chevalblanc/static/media/2.b6f911c95586cbaa7749.jpg",
+    "static/media/second-bg.jpg": "/chevalblanc/static/media/second-bg.24c7e10c4c3c70dd2099.jpg",
+    "static/media/photo1.jpg": "/chevalblanc/static/media/photo1.df6a7c5f17ded5609dcc.jpg",
+    "static/media/8.jpg": "/chevalblanc/static/media/8.615edd78008ce1192e82.jpg",
+    "static/media/5.jpg": "/chevalblanc/static/media/5.956f86bf83c35b7d1c5b.jpg",
+    "static/media/4.jpg": "/chevalblanc/static/media/4.29864c10c2d6aa30e85d.jpg",
+    "static/media/fifth-left.jpg": "/chevalblanc/static/media/fifth-left.e5a734732140a2bef711.jpg",
+    "static/media/1.jpg": "/chevalblanc/static/media/1.9b7ac3a723e8f2a54e3a.jpg",
+    "static/media/3.jpg": "/chevalblanc/static/media/3.5eaea079d241e8f2ed1b.jpg",
+    "static/media/6.jpg": "/chevalblanc/static/media/6.79743531f55e63e5183e.jpg",
+    "static/media/third2.jpg": "/chevalblanc/static/media/third2.ee7fcdaf65011ec2ea06.jpg",
+    "static/media/fifth-right.jpg": "/chevalblanc/static/media/fifth-right.c840054e780ca71fd70f.jpg",
+    "index.html": "/chevalblanc/index.html",
+    "main.3087ef41.css.map": "/chevalblanc/static/css/main.3087ef41.css.map",
+    "main.ffc288cf.js.map": "/chevalblanc/static/js/main.ffc288cf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3087ef41.css",
+    "static/js/main.ffc288cf.js"
+  ]
+}
